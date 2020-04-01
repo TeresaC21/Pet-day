@@ -1,18 +1,30 @@
 import React, { Fragment } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Formulario from './components/Formulario';
 
 function App() {
-
   // Date actually Footer
   const date = new Date().getFullYear();
 
   return (
     <Fragment>
-      <h2>Hola mundo con react</h2>
       <Header 
-        title="Tienda virtual"
+        title="PET DAY"
       />
+
+      <h2>Administrador de Pacientes</h2>
+      
+      <div className="container">
+        <div className="row">
+          <div className="one-half column">
+              <Formulario />
+          </div>
+          <div className="one-half column">
+              2
+          </div>
+        </div>
+      </div>
 
       <Footer 
       date={date}
