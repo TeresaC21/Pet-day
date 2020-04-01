@@ -2,6 +2,7 @@ import React, { Fragment, useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Formulario from './components/Formulario';
+import Cita from './components/Cita';
 
 function App() {
 
@@ -32,7 +33,14 @@ const crearCita = cita => {
               />
           </div>
           <div className="one-half column">
-              2
+              <h2>Administrar citas</h2>
+              {citas.map(cita => (
+                <Cita
+                  key={cita.id} 
+                  cita={cita}
+                />
+              ))}
+              
           </div>
         </div>
       </div>
