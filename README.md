@@ -10,7 +10,7 @@ Es un proyecto del cual se basa en una práctica de curso en linea, para conocer
 
 ### La vista del proyecto
 
-![Alt text](cp-app.png "vista pagina")
+![Alt text](https://github.com/TeresaC21/Pet-day/blob/master/public/cp-app.png "vista pagina")
 
 **Note:  **
 
