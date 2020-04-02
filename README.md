@@ -10,7 +10,7 @@ Es un proyecto del cual se basa en una práctica de curso en linea, para conocer
 
 ### La vista del proyecto
 
-![Alt text]( "vista pagina")
+![Alt text](cp-app.png "vista pagina")
 
 **Note:  **
 
