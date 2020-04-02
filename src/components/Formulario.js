@@ -1,8 +1,9 @@
 import React, { Fragment, useState } from 'react';
+//import uuid from 'uuid/v4';
+import PropTypes from 'prop-types';
 const { v4: uuidv4 } = require('uuid');
 
-
-const Formulario = (props) => {
+const Formulario = (props) => { // crearCitas
 
     // Crear State de citas
     const [cita, setCita] = useState({
@@ -12,7 +13,6 @@ const Formulario = (props) => {
         hora: '',
         sintomas: ''
     });
-
     const [error, setError] = useState(false)
 
     // Función que se actualiza cuando el usuario escribe en un input
@@ -44,7 +44,7 @@ const Formulario = (props) => {
        cita.id = uuidv4();
        
        // Crear cita
-       props.crearCita(cita)
+       props.crearCita(cita);
 
        // Reiniciar form
        setCita({
@@ -121,6 +121,10 @@ const Formulario = (props) => {
     </Fragment>
     
      );
+}
+
+Formulario.propTypes = {
+    crearCita: PropTypes.func.isRequired
 }
  
 export default Formulario;
