@@ -17,6 +17,6 @@ Es un proyecto del cual se basa en una práctica de curso en linea, para conocer
 
 Aprender más sobre React y reforzando conocimientos en JavaScript, conocer más sobre local storage y tambien práctica con estilos de CSS con las que se utilizarón en este proyecto, Normalize que es un fichero CSS que apenas ocupa 8 KB,  cuyo principal objetivo es mantener los estilos similares en los navegadores y Skeleton que es una pequeña colección de archivos CSS que pueden ayudar a desarrollar rápidamente los sitios que se ven correctamente en cualquier dispositivo
 
- Proyecto Pet Day [React](https://pet-day.netlify.com).
+ Proyecto Pet Day [https://pet-day.netlify.com](https://pet-day.netlify.com).
 
 
